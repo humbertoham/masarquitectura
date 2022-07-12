@@ -14,7 +14,7 @@ import {
   Page,
   Message,
 } from "./ConcretosEstampados.styles";
-
+import IonPhotoViewer from "@codesyntax/ionic-react-photo-viewer";
 import image from "../../images/ConcretoEstampado/image.jpg";
 import image2 from "../../images/ConcretoEstampado/image2.jpg";
 import image3 from "../../images/ConcretoEstampado/image3.jpg";
@@ -36,6 +36,7 @@ const ConcretosEstampados = () => {
       <Wrapper id="concretosestampados">
         <Content>
           <h1>Concretos Estampados</h1>
+          <div className="divider"></div>
         </Content>
 
         <Swiper
@@ -55,21 +56,27 @@ const ConcretosEstampados = () => {
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image} />
+                <IonPhotoViewer src={image}>
+                  <Page src={image} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image2} />
+                <IonPhotoViewer src={image2}>
+                  <Page src={image2} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image3} />
+                <IonPhotoViewer src={image3}>
+                  <Page src={image3} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>

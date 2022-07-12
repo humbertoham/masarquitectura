@@ -40,7 +40,8 @@ const Clients = () => {
     <>
       <Wrapper>
         <Content>
-          <h1>Clientes</h1>
+          <h1>Nuestros Clientes</h1>
+          <div className="divider"></div>
         </Content>
         <Swiper
           slidesPerView={3}

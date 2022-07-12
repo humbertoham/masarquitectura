@@ -13,7 +13,7 @@ const Section = () => {
       <Container imgUrl={image}>
         <Text>
           <h1>Nuestros servicios</h1>
-          <p>Ofrecemos los mejores servicios de la zona</p>
+
           <div className="dividerw"></div>
         </Text>
       </Container>

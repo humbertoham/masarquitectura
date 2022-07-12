@@ -14,12 +14,14 @@ const Proyectos = () => {
     <>
       <PHeader />
       <Project />
-      <Civil />
+      <Diseno />
       <Comercial />
+      <Industrial />
+      <Civil />
+
       <ConcretosEstampados />
       <ConcretosOxidados />
-      <Diseno />
-      <Industrial />
+
       <Microcementos />
     </>
   );

@@ -46,7 +46,7 @@ body{
     .Icon{
         display: block;
         margin: auto;
-        color:var(--gray);
+        color:var(--blue);
         font-size: 3rem;
     }
     .container {

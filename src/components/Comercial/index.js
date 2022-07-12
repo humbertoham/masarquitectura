@@ -15,6 +15,7 @@ import {
   Message,
 } from "./Comercial.styles";
 
+import IonPhotoViewer from "@codesyntax/ionic-react-photo-viewer";
 import image from "../../images/Comercial/image.jpg";
 import image2 from "../../images/Comercial/image2.jpg";
 import image3 from "../../images/Comercial/image3.jpg";
@@ -36,6 +37,7 @@ const Comercial = () => {
       <Wrapper id="comercial">
         <Content>
           <h1>Comercial</h1>
+          <div className="divider"></div>
         </Content>
 
         <Swiper
@@ -55,28 +57,36 @@ const Comercial = () => {
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image} />
+                <IonPhotoViewer src={image}>
+                  <Page src={image} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image2} />
+                <IonPhotoViewer src={image2}>
+                  <Page src={image2} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image3} />
+                <IonPhotoViewer src={image3}>
+                  <Page src={image3} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image4} />
+                <IonPhotoViewer src={image4}>
+                  <Page src={image4} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>

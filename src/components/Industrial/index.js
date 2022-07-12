@@ -15,6 +15,8 @@ import {
   Message,
 } from "./Industrial.styles";
 
+import IonPhotoViewer from "@codesyntax/ionic-react-photo-viewer";
+
 import image from "../../images/Industrial/image.jpg";
 import image2 from "../../images/Industrial/image2.jpg";
 import image3 from "../../images/Industrial/image3.JPG";
@@ -37,6 +39,7 @@ const Industrial = () => {
       <Wrapper id="industrial">
         <Content>
           <h1>Industrial</h1>
+          <div className="divider"></div>
         </Content>
 
         <Swiper
@@ -56,28 +59,36 @@ const Industrial = () => {
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image} />
+                <IonPhotoViewer src={image}>
+                  <Page src={image} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image2} />
+                <IonPhotoViewer src={image2}>
+                  <Page src={image2} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image3} />
+                <IonPhotoViewer src={image3}>
+                  <Page src={image3} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image4} />
+                <IonPhotoViewer src={image4}>
+                  <Page src={image4} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>

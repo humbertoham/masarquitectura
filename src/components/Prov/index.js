@@ -42,7 +42,8 @@ const Prov = () => {
     <>
       <Wrapper>
         <Content>
-          <h1>Proveedores</h1>
+          <h1>Nuestros Proveedores</h1>
+          <div className="divider"></div>
         </Content>
         <Swiper
           slidesPerView={3}

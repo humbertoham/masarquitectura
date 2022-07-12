@@ -34,9 +34,9 @@ export const Text = styled.div`
   max-width: 450px;
   margin: auto;
   position: relative;
-  top: 55%;
-  -ms-transform: translateY(55%);
-  transform: translateY(55%);
+
+  -ms-transform: translateY(150%);
+  transform: translateY(150%);
 
   h1 {
     font-family: "Poppins", serif;
@@ -45,7 +45,7 @@ export const Text = styled.div`
     font-weight: 900;
     color: var(--white);
     text-align: center;
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 768px) {
       font-size: var(--fontBig);
     }
   }
@@ -56,15 +56,14 @@ export const Text = styled.div`
     text-align: center;
     font-weight: 100;
     font-family: "Montserrat", serif;
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 768px) {
       font-size: var(--fontMed);
       text-align: center;
     }
   }
-  @media screen and (max-width: 720px) {
-    top: 65%;
-    -ms-transform: translateY(65%);
-    transform: translateY(65%);
+  @media screen and (max-width: 768px) {
+    -ms-transform: translateY(120%);
+    transform: translateY(120%);
   }
 `;
 export const Message = styled.a`

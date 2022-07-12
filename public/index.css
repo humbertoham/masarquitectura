@@ -11763,7 +11763,7 @@ h5,
 
 .ftco-section {
   padding: 7em 0;
-  background: var(--blue); 
+  background: var(--gray); 
 }
 
 .ftco-no-pt {
@@ -11870,14 +11870,14 @@ textarea.form-control {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: var(--gray);
+  background: var(--white);
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
 .dbox .icon span {
   font-size: 20px;
-  color: #fff;
+  color: var(--blue);
 }
 
 .dbox .text {
@@ -11928,8 +11928,8 @@ textarea.form-control {
 
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  border-color: var(--gray) !important;
-  background: var(--gray) !important;
+  border-color: var(--blue) !important;
+  background: var(--blue) !important;
   color: #fff !important;
 }
 

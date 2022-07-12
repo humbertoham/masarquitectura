@@ -26,8 +26,8 @@ const Contact = () => {
                         <div class="text">
                           <p>
                             <span>Dirección:</span>
-                            <a href="https://www.google.com/maps/place/Ej%C3%A9rcito+Nacional+500,+1ro+de+Mayo,+88786+Reynosa,+Tamps./@26.050157,-98.241935,17z/data=!4m5!3m4!1s0x86650e8cc23842b9:0x90d8ee6c78b2eed0!8m2!3d26.0501567!4d-98.2419347?hl=en">
-                              Ejército Nacional 500 1ro de Mayo 88786 Reynosa,
+                            <a href="https://goo.gl/maps/BR4xNqvGF2QRgWQA7">
+                              Ejercito Nacional 500, Anzalduas, 88630 Reynosa,
                               Tamps.
                             </a>
                           </p>

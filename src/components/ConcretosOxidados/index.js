@@ -14,7 +14,7 @@ import {
   Page,
   Message,
 } from "./ConcretosOxidados.styles";
-
+import IonPhotoViewer from "@codesyntax/ionic-react-photo-viewer";
 import image from "../../images/ConcretoOxidado/image.jpg";
 import image2 from "../../images/ConcretoOxidado/image2.jpg";
 import image3 from "../../images/ConcretoOxidado/image3.jpg";
@@ -39,6 +39,7 @@ const ConcretosOxidados = () => {
       <Wrapper id="concretosoxidados">
         <Content>
           <h1>Concretos Oxidados</h1>
+          <div className="divider"></div>
         </Content>
 
         <Swiper
@@ -58,42 +59,54 @@ const ConcretosOxidados = () => {
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image} />
+                <IonPhotoViewer src={image}>
+                  <Page src={image} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image2} />
+                <IonPhotoViewer src={image2}>
+                  <Page src={image2} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image3} />
+                <IonPhotoViewer src={image3}>
+                  <Page src={image3} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image4} />
+                <IonPhotoViewer src={image4}>
+                  <Page src={image4} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image5} />
+                <IonPhotoViewer src={image5}>
+                  <Page src={image5} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image6} />
+                <IonPhotoViewer src={image6}>
+                  <Page src={image6} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>

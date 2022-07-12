@@ -11,8 +11,6 @@ const Project = () => {
     <Wrapper>
       <Content>
         <h1>Proyectos</h1>
-        <div className="divider"></div>
-        <p>Aquí nuestros más recientes proyectos.</p>
       </Content>
     </Wrapper>
   );

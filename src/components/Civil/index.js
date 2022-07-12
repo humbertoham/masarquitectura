@@ -15,6 +15,8 @@ import {
   Message,
 } from "./Civil.styles";
 
+import IonPhotoViewer from "@codesyntax/ionic-react-photo-viewer";
+
 import image from "../../images/Civil/image.JPG";
 import image2 from "../../images/Civil/image1.JPG";
 import image3 from "../../images/Civil/image2.JPG";
@@ -38,6 +40,7 @@ const Civil = () => {
       <Wrapper id="civil">
         <Content>
           <h1>Civil</h1>
+          <div className="divider"></div>
         </Content>
 
         <Swiper
@@ -57,35 +60,45 @@ const Civil = () => {
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image} />
+                <IonPhotoViewer src={image}>
+                  <Page src={image} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image2} />
+                <IonPhotoViewer src={image2}>
+                  <Page src={image2} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image3} />
+                <IonPhotoViewer src={image3}>
+                  <Page src={image3} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image4} />
+                <IonPhotoViewer src={image4}>
+                  <Page src={image4} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
-                <Page src={image5} />
+                <IonPhotoViewer src={image5}>
+                  <Page src={image5} />
+                </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
