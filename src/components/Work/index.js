@@ -5,24 +5,17 @@ import {
   CardWrapper,
   CardHeader,
   CardHeading,
-  CardBody,
-  CardFieldset,
-  CardOptionsNote,
-  Page,
-  Message,
 } from "./Work.styles";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  faKitMedical,
-  faCalendarCheck,
-  faTruckMedical,
-  faMaskFace,
-  faHospital,
-  faTruckPickup,
-  faPersonRunning,
+  faCompassDrafting,
+  faHelmetSafety,
+  faTruckLoading,
+  faMagnifyingGlass,
+  faDiagramProject,
 } from "@fortawesome/free-solid-svg-icons";
 const Work = () => {
   useEffect(() => {
@@ -33,88 +26,40 @@ const Work = () => {
       <Content>
         <h1>Servicios</h1>
         <div className="divider"></div>
-        <p>Falta información.</p>
+        <p>Ofrecemos una solución integral para todos tus proyectos.</p>
       </Content>
       <div className="container">
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faTruckMedical} />
+            <FontAwesomeIcon className="Icon" icon={faCompassDrafting} />
 
-            <CardHeading>Falta información.</CardHeading>
+            <CardHeading>Diseño arquitectónico</CardHeading>
           </CardHeader>
-          <CardBody>
-            <CardFieldset>
-              <CardOptionsNote>Falta información.</CardOptionsNote>
-            </CardFieldset>
-          </CardBody>
         </CardWrapper>
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faCalendarCheck} />
+            <FontAwesomeIcon className="Icon" icon={faHelmetSafety} />
 
-            <CardHeading>Falta información.</CardHeading>
+            <CardHeading>Supervisión de obra</CardHeading>
           </CardHeader>
-          <CardBody>
-            <CardFieldset>
-              <CardOptionsNote>Falta información.</CardOptionsNote>
-            </CardFieldset>
-          </CardBody>
         </CardWrapper>
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faHospital} />
-            <CardHeading>Falta información.</CardHeading>
+            <FontAwesomeIcon className="Icon" icon={faTruckLoading} />
+            <CardHeading>Construcción</CardHeading>
           </CardHeader>
-          <CardBody>
-            <CardFieldset>
-              <CardOptionsNote>Falta información.</CardOptionsNote>
-            </CardFieldset>
-          </CardBody>
-        </CardWrapper>
-
-        <CardWrapper data-aos="fade-up">
-          <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faPersonRunning} />
-            <CardHeading>Falta información. </CardHeading>
-          </CardHeader>
-          <CardBody>
-            <CardFieldset>
-              <CardOptionsNote>Falta información.</CardOptionsNote>
-            </CardFieldset>
-          </CardBody>
         </CardWrapper>
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faMaskFace} />
-            <CardHeading>Falta información.</CardHeading>
+            <FontAwesomeIcon className="Icon" icon={faMagnifyingGlass} />
+            <CardHeading>Análisis de costos</CardHeading>
           </CardHeader>
-          <CardBody>
-            <CardFieldset>
-              <CardOptionsNote>Falta información.</CardOptionsNote>
-            </CardFieldset>
-          </CardBody>
         </CardWrapper>
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faTruckPickup} />
-            <CardHeading>Falta información.</CardHeading>
+            <FontAwesomeIcon className="Icon" icon={faDiagramProject} />
+            <CardHeading>Proyecto ejecutivo</CardHeading>
           </CardHeader>
-          <CardBody>
-            <CardFieldset>
-              <CardOptionsNote>Falta información.</CardOptionsNote>
-            </CardFieldset>
-          </CardBody>
-        </CardWrapper>
-        <CardWrapper data-aos="fade-up">
-          <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faKitMedical} />
-            <CardHeading>Falta información.</CardHeading>
-          </CardHeader>
-          <CardBody>
-            <CardFieldset>
-              <CardOptionsNote>Falta información.</CardOptionsNote>
-            </CardFieldset>
-          </CardBody>
         </CardWrapper>
       </div>
     </Wrapper>

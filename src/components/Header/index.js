@@ -22,7 +22,7 @@ const Header = () => {
         </MenuLink>
         <hr class="menu" />
 
-        <MenuLink href="/Proyectos" className="segundo">
+        <MenuLink href="/proyectos" className="segundo">
           Proyectos
         </MenuLink>
         <hr class="menu" />

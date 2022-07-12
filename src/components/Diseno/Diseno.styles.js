@@ -1,20 +1,18 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: var(--lightbrown);
   padding-bottom: 64px;
-  padding-top: 64px;
 `;
 
 export const Content = styled.div`
   padding-top: 20px;
   max-width: var(--maxWidth);
   margin: 0 auto;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   h1 {
-    font-family: "Poppins", serif;
-    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
     margin: 0;
     font-weight: 100;
     color: var(--black);
@@ -26,9 +24,10 @@ export const Content = styled.div`
     padding: 15px;
 
     font-weight: 100;
-    font-size: var(--fontMed);
-    font-family: "Poppins", serif;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
     @media screen and (max-width: 720px) {
+      font-size: var(--fontMed);
       font-size: 1rem;
     }
   }
@@ -36,16 +35,17 @@ export const Content = styled.div`
 export const CardWrapper = styled.div`
   overflow: hidden;
   padding: 0 0 32px;
-  margin: 0px 24px 24px;
+  margin: 24px;
   background: var(--white);
-  width: 350px;
+  width: 800px;
+  justify-content: center;
   z-index: 1;
 `;
 export const Text = styled.div`
   margin: auto;
   width: 50%;
   padding: 10px;
-  font-family: "Montserrat", serif;
+  font-family: "Poppins", sans-serif;
   h1 {
     font-size: 1rem;
     font-weight: 100;
@@ -56,7 +56,7 @@ export const Text = styled.div`
     }
   }
   p {
-    font-size: var(--fontSmall);
+    font-size: var(--fontMed);
     font-weight: 700;
     @media screen and (max-width: 720px) {
       font-size: var(--fontSmall);
@@ -75,17 +75,17 @@ export const Message = styled.a`
   font-family: inherit;
   font-size: var(--fontMed);
   font-weight: 700;
-  color: var(--blue);
-  border: 2px solid var(--blue);
+  color: var(--yellow);
+  border: 2px solid var(--yellow);
   border-radius: 35px;
 
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
   text-decoration: none;
   text-align: center;
-  font-family: "Poppins", serif;
+  font-family: "Avenir Light", serif;
   &:hover {
-    background-color: var(--blue);
+    background-color: var(--yellow);
     color: var(--white);
   }
   @media (max-width: 768px) {
@@ -98,12 +98,14 @@ export const CardHeader = styled.header`
   padding-bottom: 32px;
 `;
 export const CardHeading = styled.h1`
-  margin-top: 20px;
   text-align: center;
   color: var(--black);
   font-weight: 100;
-  font-size: 1.5rem;
-  font-family: "Poppins", serif;
+  font-size: 2rem;
+  font-family: "Avenir Light", serif;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const CardBody = styled.div`
@@ -133,7 +135,7 @@ export const CardFieldset = styled.fieldset`
 export const CardOptionsNote = styled.small`
   padding-top: 8px;
   display: block;
-  font-family: "Montserrat", serif;
+  font-family: "Avenir Light", serif;
   width: 100%;
   font-size: var(--fontMed);
   color: #666;
@@ -142,13 +144,12 @@ export const CardOptionsNote = styled.small`
 
 export const Page = styled.img`
   display: block;
-  height: 200px;
-  width: 300px;
+  height: auto;
+  width: 100%;
   margin: auto;
   padding: 0px 30px;
-  border-radius: 50%;
-
   @media screen and (max-width: 720px) {
+    width: 100%;
   }
 `;
 

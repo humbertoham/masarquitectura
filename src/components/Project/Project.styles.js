@@ -98,7 +98,6 @@ export const CardHeader = styled.header`
   padding-bottom: 32px;
 `;
 export const CardHeading = styled.h1`
-  margin-top: 20px;
   text-align: center;
   color: var(--black);
   font-weight: 100;

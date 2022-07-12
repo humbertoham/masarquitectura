@@ -559,4 +559,10 @@ margin-right: 10px;
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
 }
+#downA{
+  margin:20px ;
+  font-size:2rem ;
+  color: var(--blue) ;
+  text-align:center ;
+}
 `;

@@ -13,7 +13,7 @@ const Banner = () => {
       <Container imgUrl={image}>
         <Text data-aos="fade-up">
           Más Arquitectura
-          <p>Arquitectura y Construcción </p>
+          <p>Arquitectura, Civil y Construcción </p>
           <section id="section05" class="demo">
             <a href="#about">
               <span></span>

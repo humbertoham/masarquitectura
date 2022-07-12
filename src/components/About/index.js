@@ -17,7 +17,11 @@ const About = () => {
       <Content data-aos="fade-right">
         <Text>
           <h1>¿Quiénes somos?</h1>
-          <p>Falta información.</p>
+          <p>
+            Empresa especializada en proyectos de construcción, edificaciones,
+            obras de urbanismo y prestación de servicios en las ramas de la
+            ingeniería y/o arquitectura.
+          </p>
         </Text>
         <MapC className="right" data-aos="fade-up">
           <Map src={MapP} />

@@ -47,7 +47,7 @@ const Clients = () => {
           spaceBetween={30}
           loop={true}
           autoplay={{
-            delay: 1000,
+            delay: 2000,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -126,7 +126,7 @@ const Clients = () => {
           spaceBetween={30}
           loop={true}
           autoplay={{
-            delay: 1000,
+            delay: 2000,
             disableOnInteraction: false,
           }}
           pagination={{
