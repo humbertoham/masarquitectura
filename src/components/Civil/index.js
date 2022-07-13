@@ -22,6 +22,14 @@ import image2 from "../../images/Civil/image1.JPG";
 import image3 from "../../images/Civil/image2.JPG";
 import image4 from "../../images/Civil/image3.jpg";
 import image5 from "../../images/Civil/image4.JPG";
+import image6 from "../../images/Civil/image5.jpeg";
+import image7 from "../../images/Civil/image6.jpeg";
+import image8 from "../../images/Civil/image7.jpeg";
+import image9 from "../../images/Civil/image8.jpeg";
+import image10 from "../../images/Civil/image9.jpeg";
+import image11 from "../../images/Civil/image10.jpeg";
+import image12 from "../../images/Civil/image11.jpeg";
+import image13 from "../../images/Civil/image12.jpeg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -98,6 +106,78 @@ const Civil = () => {
               <CardHeader>
                 <IonPhotoViewer src={image5}>
                   <Page src={image5} />
+                </IonPhotoViewer>
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <IonPhotoViewer src={image6}>
+                  <Page src={image6} />
+                </IonPhotoViewer>
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <IonPhotoViewer src={image7}>
+                  <Page src={image7} />
+                </IonPhotoViewer>
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <IonPhotoViewer src={image8}>
+                  <Page src={image8} />
+                </IonPhotoViewer>
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <IonPhotoViewer src={image9}>
+                  <Page src={image9} />
+                </IonPhotoViewer>
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <IonPhotoViewer src={image10}>
+                  <Page src={image10} />
+                </IonPhotoViewer>
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <IonPhotoViewer src={image11}>
+                  <Page src={image11} />
+                </IonPhotoViewer>
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <IonPhotoViewer src={image12}>
+                  <Page src={image12} />
+                </IonPhotoViewer>
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <IonPhotoViewer src={image13}>
+                  <Page src={image13} />
                 </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>

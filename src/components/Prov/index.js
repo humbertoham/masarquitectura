@@ -18,13 +18,13 @@ import {
 import image from "../../images/Proveedores/Aceromex.JPG";
 import image2 from "../../images/Proveedores/Cemex.JPG";
 import image3 from "../../images/Proveedores/ElectroGaza.JPG";
-
+import image4 from "../../images/Proveedores/image.JPG";
 import image5 from "../../images/Proveedores/Geomembranas.JPG";
-
+import image6 from "../../images/Proveedores/image2.png";
 import image7 from "../../images/Proveedores/Interceramic.JPG";
 import image8 from "../../images/Proveedores/Kemico.JPG";
 import image9 from "../../images/Proveedores/Konkreta.JPG";
-
+import image10 from "../../images/Proveedores/image3.jpg";
 import image11 from "../../images/Proveedores/Tecnolite.JPG";
 // Import Swiper styles
 import "swiper/css";
@@ -80,7 +80,13 @@ const Prov = () => {
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
-
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <Page src={image4} />
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
@@ -88,7 +94,13 @@ const Prov = () => {
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
-
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <Page src={image6} />
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
@@ -110,7 +122,13 @@ const Prov = () => {
               </CardHeader>
             </CardWrapper>
           </SwiperSlide>
-
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <Page src={image10} />
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
           <SwiperSlide>
             <CardWrapper>
               <CardHeader>
