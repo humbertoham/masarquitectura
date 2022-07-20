@@ -26,9 +26,9 @@ const Contact = () => {
                         <div class="text">
                           <p>
                             <span>Dirección:</span>
-                            <a href="https://goo.gl/maps/BR4xNqvGF2QRgWQA7">
-                              Ejercito Nacional 500, Anzalduas, 88630 Reynosa,
-                              Tamps.
+                            <a href="https://goo.gl/maps/prqACjD1vvVm1sMr7">
+                              Calle 15, Local #5F, Col. Aztlan, 88740, Reynosa
+                              Tamps
                             </a>
                           </p>
                         </div>

@@ -15,7 +15,7 @@ export const Container = styled.div`
   z-index: 0;
 
   &:before {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.3);
     content: "";
     height: 100%;
     left: 0;
