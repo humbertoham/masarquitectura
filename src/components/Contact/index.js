@@ -26,7 +26,7 @@ const Contact = () => {
                         <div class="text">
                           <p>
                             <span>Dirección:</span>
-                            <a href="https://goo.gl/maps/prqACjD1vvVm1sMr7">
+                            <a href="https://goo.gl/maps/TTsaMbNfNxqeWcXw7">
                               Calle 15, Local #5F, Col. Aztlan, 88740, Reynosa
                               Tamps
                             </a>

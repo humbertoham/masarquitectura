@@ -21,7 +21,7 @@ import image3 from "../../images/Diseno/image3.jpg";
 import image4 from "../../images/Diseno/image4.jpg";
 import image5 from "../../images/Diseno/image5.jpg";
 import image6 from "../../images/Diseno/image6.jpg";
-
+import image7 from "../../images/Diseno/image7.jpeg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -106,6 +106,15 @@ const Diseno = () => {
               <CardHeader>
                 <IonPhotoViewer src={image6}>
                   <Page src={image6} />
+                </IonPhotoViewer>
+              </CardHeader>
+            </CardWrapper>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardWrapper>
+              <CardHeader>
+                <IonPhotoViewer src={image7}>
+                  <Page src={image7} />
                 </IonPhotoViewer>
               </CardHeader>
             </CardWrapper>
