@@ -7,6 +7,8 @@ import Diseno from "./Diseno";
 import Industrial from "./Industrial";
 import Microcementos from "./Microcementos";
 import PHeader from "./PHeader";
+import Clients from "./Clients";
+import Prov from "./Prov";
 import Project from "./Project";
 
 const Proyectos = () => {
@@ -23,6 +25,8 @@ const Proyectos = () => {
       <ConcretosOxidados />
 
       <Microcementos />
+      <Clients />
+      <Prov />
     </>
   );
 };

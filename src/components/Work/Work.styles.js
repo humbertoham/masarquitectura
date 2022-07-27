@@ -72,13 +72,13 @@ export const Message = styled.a`
   margin: 80px auto;
   width: 250px;
   padding: 12px 0;
-  font-family: inherit;
+
   font-size: var(--fontMed);
-  font-weight: 700;
+  font-weight: 100;
   color: var(--blue);
   border: 2px solid var(--blue);
   border-radius: 35px;
-
+  margin-top: 40px;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
   text-decoration: none;
@@ -86,7 +86,7 @@ export const Message = styled.a`
   font-family: "Poppins", serif;
   &:hover {
     background-color: var(--blue);
-    color: var(--white);
+    color: #fff;
   }
   @media (max-width: 768px) {
     font-size: var(--fontSmall);

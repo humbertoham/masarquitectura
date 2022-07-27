@@ -5,6 +5,7 @@ import {
   CardWrapper,
   CardHeader,
   CardHeading,
+  Message,
 } from "./Work.styles";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -62,6 +63,7 @@ const Work = () => {
           </CardHeader>
         </CardWrapper>
       </div>
+      <Message href="/proyectos">Nuestros Proyectos</Message>
     </Wrapper>
   );
 };
